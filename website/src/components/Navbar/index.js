@@ -23,16 +23,52 @@ export const NabBar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLink to="about">About</NavLink>
+              <NavLink
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
+                to="about"
+              >
+                About
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="discover">Discover</NavLink>
+              <NavLink
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
+                to="discover"
+              >
+                Discover
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="services">Services</NavLink>
+              <NavLink
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
+                to="services"
+              >
+                Services
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="signup">Sign Up</NavLink>
+              <NavLink
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
+                to="signup"
+              >
+                Sign Up
+              </NavLink>
             </NavItem>
           </NavMenu>
           <NavBtn>

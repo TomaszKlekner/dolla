@@ -33,6 +33,11 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
           <Button
+            smooth={true}
+            duration={1000}
+            spy={true}
+            exact={true}
+            offset={-80}
             primary={true}
             dark={true}
             class="primary"
